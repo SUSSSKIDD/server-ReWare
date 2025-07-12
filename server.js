@@ -24,7 +24,10 @@ app.use(helmet());
 // CORS configuration
 const allowedOrigins = [
   process.env.CLIENT_URL || 'http://localhost:3000',
-  'https://client-re-ware-r85cvpsik-sussskidds-projects.vercel.app', // Main deployed frontend
+  'https://client-re-ware-r85cvpsik-sussskidds-projects.vercel.app',
+  'https://client-re-ware.vercel.app',
+  'https://client-re-ware-sussskidds-projects.vercel.app',
+   // Main deployed frontend
   'http://localhost:5173', // Vite default port
   'http://localhost:3000', // Alternative port
   'http://127.0.0.1:3000',
